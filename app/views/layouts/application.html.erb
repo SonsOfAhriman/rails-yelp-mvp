@@ -7,9 +7,21 @@
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,500&display=swap" rel="stylesheet">
   </head>
 
   <body>
-    <%= yield %>
+    <nav class="navbar navbar-collapse navbar-light bg-light w-100">
+      <div class="nav-head">
+        <%= link_to "Home", restaurants_path %>
+      </div>
+      <div class="nav-head">
+        <%= link_to "Add a New Restaurant", new_restaurant_path %>
+      </div>
+    </nav>
+    <div class="index col-sm-8 col-sm-offset-2">
+      <%= yield %>
+    </div>
   </body>
 </html>

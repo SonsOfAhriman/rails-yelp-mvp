@@ -1,0 +1,12 @@
+<h1>Add a New Restaurant</h1>
+
+  <%= simple_form_for(@restaurant) do |f| %>
+    <div class="actions form-group">
+      <%= f.input :name, class: "form-control" %>
+      <%= f.input :address, class: "form-control" %>
+      <%= f.input :phone_number, class: "form-control" %>
+      <%= f.input :category, class: "form-control" %>
+
+      <%= f.submit class: 'btn margin-top btn-primary' %>
+    </div>
+  <% end %>

@@ -1,0 +1,52 @@
+// Place all the styles related to the Restaurants controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+body a {
+  text-decoration: none;
+  font-family: "roboto";
+}
+
+body p {
+  font-family: "roboto";
+}
+
+.navbar a {
+  padding: 15px;
+  color: #5E5E5E;
+}
+
+.index {
+  margin-left: 16.67%;
+  width: 66.66%;
+  margin-top: 48px;
+}
+
+h1 {
+  font-family: 'roboto';
+  font-size: 16px;
+}
+
+.titles {
+  text-decoration: none;
+  color: #23527C;
+}
+
+.span {
+  font-size: 2em;
+  margin-left: 10px;
+  color: #23527C
+}
+
+.flex {
+  display: flex;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.content {
+  margin-top: 10px;
+}
+
+.margin-top {
+  margin-top: 10px;
+}
